@@ -1,5 +1,4 @@
 import hashlib
-from importlib.metadata import FileHash
 
 message = "Cyber Quest Day 2"
 

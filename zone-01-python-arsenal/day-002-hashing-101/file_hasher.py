@@ -8,9 +8,7 @@ CHUNK_SIZE = 65536  # read 64 KB at a time
 def sha256_of_file(path):
     h = hashlib.sha256()
     with open(path, "rb") as f:
-        # TODO 1: read the file CHUNK_SIZE bytes at a time and
-        #         feed each chunk into h.update(chunk).
-        #         f.read(CHUNK_SIZE) returns b"" (empty) at the end of the file.
+        # Read the file in chunks and feed each chunk into h.update(chunk). f.read(CHUNK_SIZE) returns b"" (empty) at the end of the file.
         while True:
             chunk = f.read(CHUNK_SIZE)
             if not chunk:
