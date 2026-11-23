@@ -68,3 +68,22 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `a if cond else b` | One-line if/else | Day 3 |
 | `x, y = f()` | Unpacks two returned values | Day 3 |
 | `--help` | Shows a script's usage text | Day 3 |
+| Entropy | Password unpredictability in bits | Day 4 |
+| Brute force attack | Trying every possible combination | Day 4 |
+| Dictionary attack | Trying the most common real passwords first | Day 4 |
+| Blocklist screening | Rejecting known-common passwords | Day 4 |
+| NIST SP 800-63B-4 | US password and authentication standard (2025) | Day 4 |
+| SecLists | Open-source wordlists for security testing | Day 4 |
+| `Invoke-WebRequest -OutFile` | Downloads a file (PowerShell) | Day 4 |
+| Python REPL (`>>>`) | Interactive Python prompt | Day 4 |
+| `math.log2()` | Bits needed to represent a number | Day 4 |
+| `string.ascii_lowercase` etc. | Ready-made character sets | Day 4 |
+| `getpass.getpass()` | Hidden password input | Day 4 |
+| `from X import Y` | Imports one thing from a library | Day 4 |
+| `Path(__file__).parent` | Folder the script lives in | Day 4 |
+| `{x for x in ...}` | Set comprehension | Day 4 |
+| `any(...)` | True if at least one item matches | Day 4 |
+| `or` | True if either side is true | Day 4 |
+| `elif` | Checks another condition | Day 4 |
+| `+=` | Adds to a variable | Day 4 |
+| `{x:.1f}` | Formats to 1 decimal place | Day 4 |
