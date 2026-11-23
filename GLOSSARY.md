@@ -43,3 +43,28 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `f"...{x}..."` | f-string: puts a variable's value inside text | Day 2 |
 | `if __name__ == "__main__":` | Runs `main()` only when the file is run directly | Day 2 |
 | `CHUNK_SIZE = 65536` | A constant; capital letters mean "don't change this" | Day 2 |
+| Base64 | Encoding into letters, digits, + and / (often ends in =) | Day 3 |
+| Hex encoding | Each byte written as two characters, 0–9 and a–f | Day 3 |
+| URL encoding | Special characters replaced with % codes | Day 3 |
+| ROT13 | Letters shifted 13 places; reversible | Day 3 |
+| CyberChef | GCHQ's browser tool for decoding with recipes | Day 3 |
+| Magic (CyberChef) | Guesses an encoding automatically | Day 3 |
+| `import base64` | Loads Python's Base64 library | Day 3 |
+| `base64.b64encode()` / `b64decode()` | Encode to and decode from Base64 | Day 3 |
+| `.decode()` | Turns bytes back into text | Day 3 |
+| `bytes.fromhex()` | Turns a hex string into bytes | Day 3 |
+| `codecs.encode(s, "rot13")` | Applies ROT13 | Day 3 |
+| `urllib.parse.unquote()` | Decodes % codes in URLs | Day 3 |
+| `binascii.Error` | Error raised by invalid Base64 or hex | Day 3 |
+| `try:` / `except` | Catches errors instead of crashing | Day 3 |
+| `ValueError` / `UnicodeDecodeError` | Bad-input and not-valid-text errors | Day 3 |
+| `None` | Python's "no value" | Day 3 |
+| `pass` | Placeholder that does nothing | Day 3 |
+| `.isprintable()` | True if all characters are visible | Day 3 |
+| `and` | True only if both sides are true | Day 3 |
+| `in` / `not in` | Checks whether text appears inside a string | Day 3 |
+| `for x in [...]:` | Loops over each item in a list | Day 3 |
+| `range(a, b)` | Counts from a up to b−1 | Day 3 |
+| `a if cond else b` | One-line if/else | Day 3 |
+| `x, y = f()` | Unpacks two returned values | Day 3 |
+| `--help` | Shows a script's usage text | Day 3 |
