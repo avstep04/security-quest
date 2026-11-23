@@ -87,3 +87,27 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `elif` | Checks another condition | Day 4 |
 | `+=` | Adds to a variable | Day 4 |
 | `{x:.1f}` | Formats to 1 decimal place | Day 4 |
+| Salt | Random per-user value mixed in before hashing | Day 5 |
+| Rainbow tables | Precomputed hash lookups (defeated by salts) | Day 5 |
+| Slow / memory-hard hashing | Deliberately expensive hashing to slow attackers | Day 5 |
+| Argon2id | Recommended password-hashing algorithm | Day 5 |
+| bcrypt | Older, acceptable password-hashing algorithm | Day 5 |
+| Username enumeration | Finding valid usernames from error differences | Day 5 |
+| `python -m pip install` | Installs an outside Python library | Day 5 |
+| `PasswordHasher()` / `.hash()` / `.verify()` | Argon2 hashing and checking | Day 5 |
+| `VerifyMismatchError` | Argon2's wrong-password error | Day 5 |
+| `bcrypt.hashpw()` / `gensalt()` | bcrypt hashing and salt | Day 5 |
+| `b"text"` | Bytes value | Day 5 |
+| `time.perf_counter()` | Precise timer | Day 5 |
+| `lambda` | One-line unnamed function | Day 5 |
+| `for _ in range(n):` | Repeat n times | Day 5 |
+| Dictionary `{}` / `d[key]` | Key → value storage | Day 5 |
+| `d.get()` / `d.items()` | Safe lookup / loop over pairs | Day 5 |
+| `{k: v for ...}` | Dictionary comprehension | Day 5 |
+| `json.loads()` / `json.dumps()` | Read and write JSON data | Day 5 |
+| `Path.exists()` / `.read_text()` / `.write_text()` | One-call file checks and I/O | Day 5 |
+| `choices=[...]` | Restricts argparse values | Day 5 |
+| `{x:6}` / `{x:,.0f}` | Padding / thousands separators | Day 5 |
+| `Copy-Item` | Copies a file (PowerShell) | Day 5 |
+| `Get-Location` | Shows the current folder (PowerShell) | Day 5 |
+| `..\` | The folder above this one | Day 5 |
