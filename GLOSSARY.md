@@ -140,3 +140,27 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `Move-Item` | Moves a file (PowerShell) | Day 6 |
 | `Measure-Object -Line` | Counts lines (PowerShell) | Day 6 |
 | `\|` (pipe) | Sends output to the next command | Day 6 |
+| IP address | Identifies a computer on a network | Day 7 |
+| Port | Numbered door identifying a program | Day 7 |
+| `127.0.0.1` / localhost | This computer | Day 7 |
+| TCP | Reliable, ordered connection | Day 7 |
+| Socket | One end of a network connection | Day 7 |
+| Client / server | Connects / waits for connections | Day 7 |
+| Denial of service | Making a service unavailable | Day 7 |
+| Input validation | Checking incoming data before trusting it | Day 7 |
+| `socket.socket(AF_INET, SOCK_STREAM)` | Creates a TCP socket | Day 7 |
+| `.bind()` / `.listen()` / `.accept()` | Server setup and accepting clients | Day 7 |
+| `.settimeout()` / `socket.timeout` | Time limits and the timeout error | Day 7 |
+| `.recv()` / `.sendall()` | Receive and send bytes | Day 7 |
+| `socket.create_connection()` | Client connect shortcut | Day 7 |
+| `ConnectionRefusedError` etc. | Network error types | Day 7 |
+| `KeyboardInterrupt` | Raised by Ctrl+C | Day 7 |
+| `datetime.now()` | Current date and time | Day 7 |
+| `input()` | Reads typed input | Day 7 |
+| `action="store_true"` | Argparse on/off flag | Day 7 |
+| `.startswith()` | Checks how text begins | Day 7 |
+| `data[:20]` | Slicing | Day 7 |
+| `{x!r}` | Raw form in an f-string | Day 7 |
+| `\n` | Newline | Day 7 |
+| `Test-NetConnection -Port` | Checks if a port answers (PowerShell) | Day 7 |
+| Split terminal (Ctrl+Shift+5) | Side-by-side terminals in VS Code | Day 7 |
