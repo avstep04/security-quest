@@ -164,3 +164,25 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `\n` | Newline | Day 7 |
 | `Test-NetConnection -Port` | Checks if a port answers (PowerShell) | Day 7 |
 | Split terminal (Ctrl+Shift+5) | Side-by-side terminals in VS Code | Day 7 |
+| Open / closed / filtered | Port states | Day 8 |
+| TCP connect scan / SYN scan | Full-connection scan / half-open scan | Day 8 |
+| Scope / allowlist | Permitted targets, enforced in code | Day 8 |
+| Nmap | Industry-standard network scanner | Day 8 |
+| Npcap | Windows packet driver used by Nmap | Day 8 |
+| `nmap -sT` / `-sV` / `-p` | Connect scan / version detection / ports | Day 8 |
+| Banner / fingerprint | A service's identifying response | Day 8 |
+| CVE | Public ID for a known vulnerability | Day 8 |
+| Attack surface | Everything an attacker could reach | Day 8 |
+| `0.0.0.0` | Listening on all interfaces | Day 8 |
+| Threads / concurrency | Many waiting tasks at once | Day 8 |
+| `ThreadPoolExecutor` / `pool.map()` | Thread pool / run over items | Day 8 |
+| `socket.getservbyport()` | Usual service name for a port | Day 8 |
+| `OSError` | General OS error | Day 8 |
+| `.partition()` | Split around a separator | Day 8 |
+| `[x for x in ... if ...]` | List comprehension | Day 8 |
+| `type=float` / short flags | Decimal and one-letter argparse options | Day 8 |
+| `{p:<8}` | Left-align in a width | Day 8 |
+| `Get-NetTCPConnection` | Lists connections and listeners (PowerShell) | Day 8 |
+| `Get-Process -Id` | Program behind a process ID (PowerShell) | Day 8 |
+| `Select-Object` | Pick columns (PowerShell) | Day 8 |
+| PATH / `$env:Path` | Where Windows finds programs | Day 8 |
