@@ -186,3 +186,28 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `Get-Process -Id` | Program behind a process ID (PowerShell) | Day 8 |
 | `Select-Object` | Pick columns (PowerShell) | Day 8 |
 | PATH / `$env:Path` | Where Windows finds programs | Day 8 |
+| HTTP headers | Server instructions sent before content | Day 9 |
+| HSTS | Forces HTTPS for a set time | Day 9 |
+| CSP | Controls which scripts and resources may load | Day 9 |
+| XSS | Injecting malicious scripts into a site | Day 9 |
+| Clickjacking | Tricking clicks via a hidden embedded page | Day 9 |
+| `frame-ancestors` | CSP rule for who may embed a page | Day 9 |
+| nosniff | Stops browsers guessing file types | Day 9 |
+| Referrer-Policy / Permissions-Policy | Limits referrer sharing / browser features | Day 9 |
+| Information leakage | Revealing internal details | Day 9 |
+| HTTP status codes | 200 OK, 403 forbidden, etc. | Day 9 |
+| WAF | Web application firewall | Day 9 |
+| User-Agent | Identifies the browser or tool | Day 9 |
+| Redirect | Server sends you to another URL | Day 9 |
+| OWASP | Web security standards body | Day 9 |
+| MDN HTTP Observatory | Mozilla's header scanner | Day 9 |
+| DevTools Network tab | Browser view of requests and headers | Day 9 |
+| `curl.exe -I` | Show response headers (PowerShell) | Day 9 |
+| `requests.get()` | Fetch a web page | Day 9 |
+| `resp.status_code` / `.headers` / `.history` | Response details | Day 9 |
+| `RequestException` | Any request failure | Day 9 |
+| `IndexError` | Bad list position | Day 9 |
+| `.split()` / `.join()` | Break text apart / glue a list together | Day 9 |
+| `.isdigit()` / `.upper()` / `int()` | Digit check / uppercase / to whole number | Day 9 |
+| `{x:>4}` | Right-align | Day 9 |
+| `{"a", "b"}` | Set literal | Day 9 |
