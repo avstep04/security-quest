@@ -111,3 +111,32 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `Copy-Item` | Copies a file (PowerShell) | Day 5 |
 | `Get-Location` | Shows the current folder (PowerShell) | Day 5 |
 | `..\` | The folder above this one | Day 5 |
+| `auth.log` | Linux login and authentication log | Day 6 |
+| `sshd` | SSH server process | Day 6 |
+| Username spraying | Trying many usernames | Day 6 |
+| Low-and-slow attack | Spreading attempts out to avoid thresholds | Day 6 |
+| Sliding window | Checking every time span of a fixed length | Day 6 |
+| False positive / negative | Alert on harmless activity / missed attack | Day 6 |
+| Detection threshold | Count at which an alert fires | Day 6 |
+| Documentation IP ranges | Reserved example IPs (192.0.2.x, etc.) | Day 6 |
+| Regex | Pattern language for matching text | Day 6 |
+| regex101.com | Regex builder and tester | Day 6 |
+| `re.compile()` / `.search()` / `.group()` | Prepare, find and extract regex matches | Day 6 |
+| `r"..."` | Raw string | Day 6 |
+| `\d \S \w + ? {n} ^` | Core regex symbols | Day 6 |
+| `(?P<name>...)` / `(?:...)` | Named group / non-capturing group | Day 6 |
+| `Counter` / `.most_common()` | Automatic counting, ranked | Day 6 |
+| `defaultdict(list)` | Dict that auto-creates lists | Day 6 |
+| `.append()` | Adds to a list | Day 6 |
+| `(a, b)` | Tuple | Day 6 |
+| `continue` | Skip to the next loop | Day 6 |
+| `while condition:` | Loop while true | Day 6 |
+| `sorted()` / `max()` | Sorted copy / largest value | Day 6 |
+| `datetime.strptime()` | Text to date and time | Day 6 |
+| `timedelta()` | Length of time | Day 6 |
+| `{ts:%H:%M:%S}` | Format a datetime | Day 6 |
+| `type=int, default=` | Typed optional argparse argument | Day 6 |
+| `.gitignore` `!file` | Exception to an ignore rule | Day 6 |
+| `Move-Item` | Moves a file (PowerShell) | Day 6 |
+| `Measure-Object -Line` | Counts lines (PowerShell) | Day 6 |
+| `\|` (pipe) | Sends output to the next command | Day 6 |
