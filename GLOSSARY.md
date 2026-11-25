@@ -265,3 +265,28 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `grep` | Filter lines by text | Day 12 |
 | `mkdir` / `mv` / `rm` | Make folder / move / delete | Day 12 |
 | `~` | Home folder | Day 12 |
+| API | Program-to-service interface | Day 13 |
+| LLM / generative AI | Text-generating AI model | Day 13 |
+| Claude Console | API keys, billing, limits | Day 13 |
+| Key expiry / rotation / revoke | Keys that expire / replacing / disabling | Day 13 |
+| Spend limit | Monthly API cost cap | Day 13 |
+| Prepaid credits | Money API calls draw from | Day 13 |
+| `anthropic.Anthropic()` | Claude API client | Day 13 |
+| `client.messages.create()` | Send a request to Claude | Day 13 |
+| `model=` / `max_tokens=` | Which model / output budget | Day 13 |
+| `messages=` roles | Conversation sent to Claude | Day 13 |
+| System prompt | Sets Claude's role and format | Day 13 |
+| Tokens / `message.usage` | Billing units / usage count | Day 13 |
+| Content blocks / `block.type` | Pieces of a reply | Day 13 |
+| Thinking tokens | Hidden reasoning, billed as output | Day 13 |
+| `message.stop_reason` | Why the reply ended | Day 13 |
+| `claude-haiku-5-5` | Fast, inexpensive model | Day 13 |
+| `AuthenticationError` / `BadRequestError` | Bad key / rejected request | Day 13 |
+| `APIConnectionError` / `APIStatusError` | Can't connect / other error status | Day 13 |
+| HTTP 401 vs 400 | Not authenticated vs rejected | Day 13 |
+| Data minimization | Send only what's needed | Day 13 |
+| Redaction | Replace sensitive values with placeholders | Day 13 |
+| `pattern.sub()` | Regex replace | Day 13 |
+| `(?i)` / `\1` | Case-insensitive / group reference | Day 13 |
+| `for line in sys.stdin:` | Read input line by line | Day 13 |
+| Reading a traceback | Start at the last line | Day 13 |
