@@ -211,3 +211,19 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `.isdigit()` / `.upper()` / `int()` | Digit check / uppercase / to whole number | Day 9 |
 | `{x:>4}` | Right-align | Day 9 |
 | `{"a", "b"}` | Set literal | Day 9 |
+| Command injection | Making a program run attacker commands | Day 10 |
+| Shell / `cmd.exe` | Command interpreter | Day 10 |
+| `&` `&&` `\|` `\|\|` | Shell command-chaining symbols | Day 10 |
+| Argument injection | Smuggling extra options into a command | Day 10 |
+| Defense in depth | Multiple layers of protection | Day 10 |
+| `subprocess.run()` | Runs another program | Day 10 |
+| `shell=True` | Runs through the shell (risky with input) | Day 10 |
+| Argument list `[...]` | Safe way to pass command arguments | Day 10 |
+| `capture_output=True, text=True` | Capture program output as text | Day 10 |
+| `.stdout` / `.stderr` | Normal / error output | Day 10 |
+| `platform.system()` | Detects the OS | Day 10 |
+| `ipaddress.ip_address()` | Validates an IP | Day 10 |
+| `(?=...)` / `$` | Regex lookahead / end of text | Day 10 |
+| `whoami` | Shows the current user | Day 10 |
+| `echo > file` / `type` | Write to / show a file (cmd) | Day 10 |
+| `ping -n` / `-t` | Count / forever (Windows ping) | Day 10 |
