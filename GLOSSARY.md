@@ -290,3 +290,25 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `(?i)` / `\1` | Case-insensitive / group reference | Day 13 |
 | `for line in sys.stdin:` | Read input line by line | Day 13 |
 | Reading a traceback | Start at the last line | Day 13 |
+| AI-assisted code review | Model finds, human verifies | Day 14 |
+| Verdict: Real / False positive / Partly true | Judgment after checking a finding | Day 14 |
+| Severity rating | High / Medium / Low / Info | Day 14 |
+| Threat model | Who can attack, how, what they reach | Day 14 |
+| Nondeterminism | Same input, different output | Day 14 |
+| `str.splitlines()` | Split text into lines | Day 14 |
+| `enumerate(items, start=1)` | Loop with a counter | Day 14 |
+| `type=Path` | Argparse argument as a Path | Day 14 |
+| `sys.exit("message")` | Stop with an error message | Day 14 |
+| `python -c "<code>"` | Run one line of Python | Day 14 |
+| `help(function)` | Built-in documentation | Day 14 |
+| `ModuleNotFoundError` | Module missing or not on this OS | Day 14 |
+| `fcntl` | Unix-only file locking | Day 14 |
+| `umask` / `0o600` / `0644` | Unix permissions | Day 14 |
+| `icacls <file>` | Windows file access list | Day 14 |
+| ACL / `(I)(F)` | Access list / inherited full control | Day 14 |
+| Atomic write / `os.replace()` | Never-half-written file save | Day 14 |
+| Race condition | Overlapping operations clash | Day 14 |
+| `InvalidHashError` | Malformed Argon2 hash | Day 14 |
+| `check_needs_rehash()` | Hash uses outdated settings? | Day 14 |
+| `time_cost` / `memory_cost` / `parallelism` | Argon2 parameters | Day 14 |
+| RFC 9106 | Argon2 standard | Day 14 |
