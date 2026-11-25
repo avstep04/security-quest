@@ -227,3 +227,22 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `whoami` | Shows the current user | Day 10 |
 | `echo > file` / `type` | Write to / show a file (cmd) | Day 10 |
 | `ping -n` / `-t` | Count / forever (Windows ping) | Day 10 |
+| Secret / API key | Access credential for a service | Day 11 |
+| `.env` / `.env.example` | Local secrets file / committed template | Day 11 |
+| Environment variable | Named setting read by programs | Day 11 |
+| `os.getenv()` | Read an environment variable | Day 11 |
+| `load_dotenv()` | Load `.env` into environment variables | Day 11 |
+| Masking | Showing only part of a secret | Day 11 |
+| gitleaks | Secret scanner for code and Git history | Day 11 |
+| `gitleaks git` / `dir` | Scan history / scan files | Day 11 |
+| `--redact` | Hide secrets in scan output | Day 11 |
+| Pre-commit hook | Script that can block a commit | Day 11 |
+| `.git\hooks` | Where hook scripts live | Day 11 |
+| `#!/bin/sh` | Shebang line | Day 11 |
+| Git for Windows | Terminal Git on Windows | Day 11 |
+| `git check-ignore -v` | Which rule ignores a file | Day 11 |
+| `winget install` | Windows package manager install | Day 11 |
+| `Set-Content` | Write a file (PowerShell) | Day 11 |
+| `secrets.choice()` | Secure random choice | Day 11 |
+| `open(path, "w")` | Open a file for writing | Day 11 |
+| `"*" * n` / `s[-4:]` | Repeat text / negative slicing | Day 11 |

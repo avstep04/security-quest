@@ -83,7 +83,8 @@ Progress row format:
 
 ## 11. My custom rules
 Add new checks here. Claude follows them from the next day on.
--
+- **LinkedIn tool alert:** whenever a day's lesson uses a named industry tool or platform (AWS, Azure, Wireshark, Nmap, Burp Suite, Splunk, Wazuh, Terraform, etc.), Claude flags it at the start of that day as 🔔 **LinkedIn-worthy**, with the exact skill name to add to LinkedIn and my resume.
 
 ## Change log
 - Nov 22, 2026: Created. Days 1-2 complete.
+- Nov 24, 2026: Added LinkedIn tool alert rule.
