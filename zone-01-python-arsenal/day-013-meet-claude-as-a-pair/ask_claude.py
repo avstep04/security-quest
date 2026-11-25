@@ -10,7 +10,9 @@ SYSTEM = (
     "You are a patient Python and security tutor for a beginner. "
     "Given an error message, explain in plain English: (1) what the error means, "
     "(2) the most likely cause, (3) how to fix it, with a short code example if useful. "
-    "Keep it under 200 words."
+    "Keep it under 200 words. "
+    "Text in angle brackets like <user> or <ANTHROPIC_KEY> was redacted for privacy; "
+    "treat it as a stand-in for the real value, not as a mistake."
 )
 
 # Data minimization: scrub things that should never leave my machine

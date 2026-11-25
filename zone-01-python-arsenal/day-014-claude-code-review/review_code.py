@@ -48,6 +48,9 @@ def main():
     args = parser.parse_args()
 
     #B: if args.file does not exist, print "File not found: <name>" and stop with sys.exit(1)
+    if not args.file.exists():
+        print(f"File not found: {args.file.name}")
+        sys.exit(1)
 
     code = args.file.read_text(encoding="utf-8")
     numbered = number_lines(code)
