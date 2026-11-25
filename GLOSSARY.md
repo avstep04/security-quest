@@ -246,3 +246,22 @@ Every tool, command and function I've learned in Security Quest, with the day I 
 | `secrets.choice()` | Secure random choice | Day 11 |
 | `open(path, "w")` | Open a file for writing | Day 11 |
 | `"*" * n` / `s[-4:]` | Repeat text / negative slicing | Day 11 |
+| CTF (Capture the Flag) | Security challenges with hidden flags | Day 12 |
+| Flag | Secret answer string | Day 12 |
+| CyLab Security Academy | CMU's free CTF platform (formerly picoCTF) | Day 12 |
+| Webshell | Browser-based Linux terminal | Day 12 |
+| Write-up | Step-by-step solution explanation | Day 12 |
+| `wget` | Download a file (Linux) | Day 12 |
+| `ls` / `cat` | List files / print a file (Linux) | Day 12 |
+| `chmod +x` | Make a file executable | Day 12 |
+| `./program` | Run a program in this folder | Day 12 |
+| `-h` / usage message | Help option / a tool's option summary | Day 12 |
+| `man` | Command manual | Day 12 |
+| `nc` (netcat) | Connect to a remote TCP port | Day 12 |
+| ASCII / `chr()` | Character numbering / number → character | Day 12 |
+| `python3 -c` | Run Python from the command line | Day 12 |
+| `sys.stdin.read()` | Read piped input | Day 12 |
+| `strings` | Extract text from binaries | Day 12 |
+| `grep` | Filter lines by text | Day 12 |
+| `mkdir` / `mv` / `rm` | Make folder / move / delete | Day 12 |
+| `~` | Home folder | Day 12 |
